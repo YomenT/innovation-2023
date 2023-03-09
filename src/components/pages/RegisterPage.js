@@ -37,6 +37,16 @@ export default class SignUpPage extends React.Component {
         localStorage.setItem('firstName', this.state.firstName)
         localStorage.setItem('lastName', this.state.lastName)
         localStorage.setItem('email', this.state.email)
+
+        localStorage.setItem('userId2', "Fred42")
+        localStorage.setItem('firstName2', "Fred")
+        localStorage.setItem('lastName2', "Rick")
+        localStorage.setItem('email2', "fred.rick@gmail.com")
+
+        localStorage.setItem('userId3', "HartaK4")
+        localStorage.setItem('firstName3', "Harta")
+        localStorage.setItem('lastName3', "Krisna")
+        localStorage.setItem('email3', 'krisnah@gmail.com')
     }
 
     render() {

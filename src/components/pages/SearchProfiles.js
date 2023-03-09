@@ -31,6 +31,16 @@ class SearchProfiles extends React.Component {
             this.setState({firstName: this.storageFirstName})
             this.setState({lastName: this.storageLastName})
             this.setState({email: this.storageEmail})
+        } else if (this.state.userId === 'Hartak4') {
+            this.setState({afterSearchUserId: "Hartak4"})
+            this.setState({firstName: "Harta"})
+            this.setState({lastName: "Krisna"})
+            this.setState({email: "krisnah@gmail.com"})
+        } else if (this.state.userId === 'Fred42') {
+            this.setState({afterSearchUserId: "Fred42"})
+            this.setState({firstName: "Fred"})
+            this.setState({lastName: "Rick"})
+            this.setState({email: "fred.rick@gmail.com"})
         } else {
             alert("Unable to find patient.")
         }
